@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/H-S-S-11/gf180-mpw0
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: Apache-2.0
+  upstream_default_branch: main
+tapeouts:
+- org: google
+  run: gf180mcu-mpw0
+  slot: 0AFF
+  project: PDM driver and dice
+  size: caravel-upw
+  kind: digital
+  commit: 298e92f49f
+  commit_source: designer commit from Efabless tapeout/logs/git.info
+  tag: google/gf180mcu-mpw0/0AFF
+  branch: tapeout/google/gf180mcu-mpw0/0AFF
+  page: https://wafer.space/google-gf180mcu-mpw0/
+generated: '2026-10-17T23:44:58Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/google/gf180mcu-mpw0/0AFF
+- upstream/main
